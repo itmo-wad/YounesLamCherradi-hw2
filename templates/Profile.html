@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/Profile.css" />
+    <title> MyProfile Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">LamCherradiYounes</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section" id="about">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">Friends</p>
+          <h1 class="title">
+            I'm <span>Lamhamedi Cherradi Younes<br />a</span> Network Engineer
+          </h1>
+          <p class="description">
+            Welcome {{ name}}! I'm Lmahmedi Cherradi Younes, your web developer extraordinaire. Crafting sleek, user-friendly websites is my passion. Let's create something amazing together! Happy to see you my Folks.💻
+            🎨 🚀 🔧 ✨ 🌐  
+          </p>
+          <div class="action__btns">
+            <button class="github">  <a href="https://github.com/YounesLamCherradi">Github</a></button>
+            <button class="link"> <a href="https://www.linkedin.com/in/lamcherradiyounes/">LinkedIn</a></button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="/static/younes.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+<section class="timo">
+  <div class="timeline" id="experience">
+    <div class="timeline__component">
+      <div class="timeline__date timeline__date--right">May 21, 2018</div>
+    </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component timeline__component--bg">
+      <h2 class="timeline__title">Network Engineer</h2>
+      <p class="timeline__paragraph">
+        Working as a Network Engineer at OCP to develop the infrastructure of the compay.
+      </p>
+    </div>
+    <div class="timeline__component timeline__component--bg">
+      <h2 class="timeline__title">Network Administrator</h2>
+      <p class="timeline__paragraph">
+        Administrating a lot of devices as awell as the internal network of the company with a supervising tasks.
+      </p>
+    </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component">
+      <div class="timeline__date">June 22, 2020</div>
+    </div>
+    <div class="timeline__component">
+      <div class="timeline__date timeline__date--right">July 15, 2021</div>
+    </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component timeline__component--bg">
+      <h2 class="timeline__title">DXC Internship</h2>
+      <p class="timeline__paragraph">
+        Developing external tools for DXC Company with collaborating with other services.
+      </p>
+    </div>
+    <div class="timeline__component timeline__component--bottom timeline__component--bg">
+      <h2 class="timeline__title">Deloite Internship</h2>
+      <p class="timeline__paragraph">
+            Working on a data scinece project to implement a machine recognized mechanisme.
+      </p>
+      
+    </div>
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
+      <div class="timeline__point timeline__point--bottom"></div>
+    </div>
+    <div class="timeline__component timeline__component--bottom">
+      <div class="timeline__date">June 28, 2021</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+  </body>
+</html>
